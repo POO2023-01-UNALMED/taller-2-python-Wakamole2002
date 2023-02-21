@@ -21,9 +21,9 @@ class Auto:
         else:
             for i in self.asientos:
                 if i != self.registro:
-                    return "Las piezas no son originales"
-            else: 
-                    return "Auto original"
+                    return "Las piezas no son originales" 
+            
+            return "Auto original"
 
 class Asiento:
     def __init__(self, color, precio, registro):
